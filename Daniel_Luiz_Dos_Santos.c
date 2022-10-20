@@ -16,7 +16,7 @@ int main(){
 	
 	
 	printf("Algoritimo e programacao \t Joyce Siqueira \t Daniel Luiz dos Santos \n uc22103186\t Analise e desenvolviment de Sistemas \n");	
-	printf("https://github.com/DanielL159/Prova_Algoritimo.git\n");
+	printf("https://github.com/DanielL159/Prova.git");
 	
 	printf("Qual questao gostaria de ver  A ou C:");
 	scanf("%s",&opcao);
