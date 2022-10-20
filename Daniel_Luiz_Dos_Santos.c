@@ -6,8 +6,8 @@
 int main(){
 	//Variaveis da questao A
 	char opcao;
-	int catetoOposto,catetoAdjacente,hipotenusa;
-	float seno;
+	float catetoOposto,catetoAdjacente,hipotenusa,seno;
+	 
 			
 			
 	//Variaveis da questao C
@@ -26,17 +26,17 @@ int main(){
 		
 		case 'A':
 			
-			printf("Por gentileza me forneca o Cateto Opostos (a):");
-			scanf("%d",&catetoOposto);
+			printf("Por gentileza me forneca o Cateto Opostos a =");
+			scanf("%f",&catetoOposto);
 			
-			printf("Por gentileza me forneca o cateto adjacente(b):");
-			scanf("%d",&catetoAdjacente);
+			printf("Por gentileza me forneca o cateto adjacente b =");
+			scanf("%f",&catetoAdjacente);
 			
 			hipotenusa = sqrt(pow(catetoOposto,2) + pow(catetoAdjacente,2));
 			
-			seno =  catetoOposto/(float)hipotenusa	;
+			seno =  catetoOposto/hipotenusa	;
 		
-			printf(" Hipotenuas : %d\n seno : %.3f",hipotenusa,seno);
+			printf(" Hipotenuas : %.3f\n seno : %.3f",hipotenusa,seno);
 			
 		break;
 		
